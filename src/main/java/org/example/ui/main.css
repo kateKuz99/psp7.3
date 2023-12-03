@@ -1,0 +1,39 @@
+#input-panel {
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+#input-panel label {
+    font-weight: bold;
+}
+
+#input-panel input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Стили для кнопок */
+.button {
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button-create {
+    background-color: #4CAF50;
+}
+
+.button-edit {
+    background-color: #2196F3;
+}
+
+.button-delete {
+    background-color: #F44336;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
